@@ -27,6 +27,9 @@
   </div>
 
   <header class="topbar">
+    <div class="scroll-progress-container">
+      <div class="scroll-progress-bar" id="scrollProgress"></div>
+    </div>
     <div class="container topbar-inner">
 
       <button class="menu-toggle" type="button" aria-label="Buka menu" aria-expanded="false">☰</button>
@@ -42,7 +45,7 @@
   <main id="home">
     <section class="hero-section">
       <div class="hero container">
-        <div class="hero-copy reveal">
+        <div class="hero-copy">
           <h1>Portfolio</h1>
           <p class="hero-name">Azzam</p>
           <p class="hero-description">
@@ -51,7 +54,7 @@
           <a href="#about" class="outline-button">Explore my work ↓</a>
         </div>
 
-        <div class="hero-photo reveal">
+        <div class="hero-photo">
           <div class="photo-frame">
             <img src="assets/Azzam.jpg" alt="Foto Azzam di alam">
           </div>
@@ -77,21 +80,60 @@
             Saya juga menyukai alam dan eksplorasi, sehingga saya memilih
             karakter visual yang natural untuk portfolio ini.
           </p>
+
+          <div class="about-education">
+            <h3 class="about-edu-heading">Pendidikan</h3>
+            <ul class="about-edu-list">
+              <li class="about-edu-item">
+                <span class="edu-dot" aria-hidden="true"></span>
+                <span class="edu-text">SD</span>
+              </li>
+              <li class="about-edu-item">
+                <span class="edu-dot" aria-hidden="true"></span>
+                <span class="edu-text">SMP</span>
+              </li>
+              <li class="about-edu-item">
+                <span class="edu-dot" aria-hidden="true"></span>
+                <span class="edu-text">SMK</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-card">
+              <span class="stat-number">4+</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">2+</span>
+              <span class="stat-label">Years Learning</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Passionate</span>
+            </div>
+          </div>
         </div>
 
-        <aside class="contacts reveal">
-          <h3>Contacts</h3>
-          <div class="contact-list">
-            <div><b>✉</b><a href="mailto:azzamdamarp@gmail.com">azzamdamarp@gmail.com</a></div>
-            <div><b>◎</b><a href="https://instagram.com/zam_dp23" target="_blank" rel="noopener">@zam_dp23</a></div>
-            <div class="contact-item github-contact">
-              <b class="contact-icon github-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" role="img" aria-label="GitHub">
-                  <path fill="currentColor"
-                    d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.77-.24.77-.54v-2.1c-3.13.68-3.79-1.33-3.79-1.33-.51-1.31-1.25-1.66-1.25-1.66-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 1.72 2.62 1.22 3.26.93.1-.73.39-1.22.71-1.5-2.5-.29-5.13-1.25-5.13-5.57 0-1.23.44-2.23 1.16-3.02-.12-.29-.5-1.43.11-2.98 0 0 .94-.3 3.08 1.15a10.7 10.7 0 0 1 5.6 0c2.14-1.45 3.08-1.15 3.08-1.15.61 1.55.23 2.69.11 2.98.72.79 1.16 1.79 1.16 3.02 0 4.33-2.64 5.28-5.15 5.56.4.35.76 1.04.76 2.1v3.1c0 .3.2.65.78.54A11.2 11.2 0 0 0 12 .8Z" />
-                </svg>
-              </b>
-              <a href="https://github.com/Azzam2311" target="_blank" rel="noopener">Azzam2311</a>
+        <aside class="contacts reveal reveal-delay-1">
+          <h3>Current Focus</h3>
+          <div class="focus-list">
+            <div class="focus-box focus-status">
+              <span class="focus-label">Status</span>
+              <div class="status-indicator-wrap">
+                <span class="status-dot" aria-hidden="true"></span>
+                <strong>Open for projects & collaboration</strong>
+              </div>
+            </div>
+
+            <div class="focus-box">
+              <span class="focus-label">Currently Learning</span>
+              <strong>Frontend Development & UI/UX Research</strong>
+            </div>
+
+            <div class="focus-box">
+              <span class="focus-label">Current Goal</span>
+              <strong>Building accessible & responsive web applications</strong>
             </div>
           </div>
 
@@ -148,29 +190,29 @@
           </p>
         </div>
 
-        <div class="app-grid reveal">
-          <div class="app-card">
+        <div class="app-grid">
+          <div class="app-card reveal reveal-delay-1">
             <div class="app-icon">
               <img src="assets/visual-studio.png" alt="Visual Studio" class="app-logo">
             </div>
             <h3>Visual Studio</h3>
             <span>Development</span>
           </div>
-          <div class="app-card">
+          <div class="app-card reveal reveal-delay-2">
             <div class="app-icon">
               <img src="assets/vscode.png" alt="Visual Studio Code" class="app-logo">
             </div>
             <h3>Visual Studio Code</h3>
             <span>Code editor</span>
           </div>
-          <div class="app-card">
+          <div class="app-card reveal reveal-delay-3">
             <div class="app-icon">
               <img src="assets/figma.png" alt="Figma" class="app-logo">
             </div>
             <h3>Figma</h3>
             <span>UI / UX design</span>
           </div>
-          <div class="app-card">
+          <div class="app-card reveal reveal-delay-4">
             <div class="app-icon">
               <img src="assets/capcut.png" alt="CapCut" class="app-logo">
             </div>
@@ -179,7 +221,7 @@
           </div>
         </div>
 
-        <div class="skill-tags reveal">
+        <div class="skill-tags reveal reveal-delay-2">
           <span>HTML</span>
           <span>CSS</span>
           <span>JavaScript</span>
@@ -200,49 +242,113 @@
       <div class="projects-list">
         <article class="project reveal">
           <div class="project-number">01</div>
+          <a class="project-thumb"
+            href="https://www.figma.com/design/VlQH84NLnLY2c313f15K36/Guitar?node-id=0-1&t=M16paivEGp5KmyqY-1"
+            target="_blank" rel="noopener" aria-label="Lihat preview desain Guitar">
+            <img src="assets/project-guitar.png" alt="Preview Desain Guitar" loading="lazy">
+          </a>
           <div class="project-info">
             <span class="project-type">Figma / UI design</span>
             <h3>Guitar</h3>
             <p>Desain interface yang dibuat menggunakan Figma.</p>
           </div>
           <a class="project-arrow" target="_blank" rel="noopener"
-            href="https://www.figma.com/design/VlQH84NLnLY2c313f15K36/Guitar?node-id=0-1&t=M16paivEGp5KmyqY-1">↗</a>
+            href="https://www.figma.com/design/VlQH84NLnLY2c313f15K36/Guitar?node-id=0-1&t=M16paivEGp5KmyqY-1"
+            aria-label="Buka proyek Guitar">↗</a>
         </article>
 
-        <article class="project reveal">
+        <article class="project reveal reveal-delay-1">
           <div class="project-number">02</div>
+          <a class="project-thumb"
+            href="https://www.figma.com/design/tI3LmPobNs2RSiZfOGEBQf/Untitled?t=pnNFmFzumnpfaEmv-1" target="_blank"
+            rel="noopener" aria-label="Lihat preview desain Kalender Stella">
+            <img src="assets/project-kalender-stella.png" alt="Preview Desain Kalender Stella" loading="lazy">
+          </a>
           <div class="project-info">
             <span class="project-type">Figma / prototype</span>
-            <h3>Project 02</h3>
+            <h3>Kalender Stella</h3>
             <p>Eksplorasi desain interface dan prototype.</p>
           </div>
           <a class="project-arrow" target="_blank" rel="noopener"
-            href="https://www.figma.com/design/tI3LmPobNs2RSiZfOGEBQf/Untitled?t=pnNFmFzumnpfaEmv-1">↗</a>
+            href="https://www.figma.com/design/tI3LmPobNs2RSiZfOGEBQf/Untitled?t=pnNFmFzumnpfaEmv-1"
+            aria-label="Buka proyek Kalender Stella">↗</a>
         </article>
 
-        <article class="project reveal">
+        <article class="project reveal reveal-delay-2">
           <div class="project-number">03</div>
+          <a class="project-thumb" href="https://workaholic.lovestoblog.com/" target="_blank" rel="noopener"
+            aria-label="Lihat preview website Workaholic">
+            <img src="assets/project-workaholic.png" alt="Preview Website Workaholic" loading="lazy">
+          </a>
           <div class="project-info">
             <span class="project-type">HTML / CSS / web</span>
             <h3>Workaholic</h3>
             <p>Website yang pernah saya buat sebagai pengalaman web development.</p>
           </div>
-          <a class="project-arrow" target="_blank" rel="noopener" href="https://workaholic.lovestoblog.com/">↗</a>
+          <a class="project-arrow" target="_blank" rel="noopener" href="https://workaholic.lovestoblog.com/"
+            aria-label="Buka proyek Workaholic">↗</a>
         </article>
       </div>
     </section>
 
     <section id="contact" class="contact-section">
       <div class="container contact-inner reveal">
-        <div>
+        <div class="contact-copy">
           <p class="mini-label">Let's create</p>
           <h2>Have an idea?</h2>
-          <p>Jangan ragu untuk menghubungi saya dan berdiskusi tentang sebuah projek.</p>
+          <p>Jangan ragu untuk menghubungi saya dan berdiskusi tentang sebuah projek atau kolaborasi baru.</p>
+          <div class="contact-buttons">
+            <a class="solid-button" href="mailto:azzamdamarp@gmail.com">Email me ↗</a>
+            <button class="outline-button" id="copyEmail" type="button" data-email="azzamdamarp@gmail.com">Copy
+              email</button>
+          </div>
         </div>
-        <div class="contact-buttons">
-          <a class="solid-button" href="mailto:azzamdamarp@gmail.com">Email me ↗</a>
-          <button class="outline-button" id="copyEmail" type="button" data-email="azzamdamarp@gmail.com">Copy
-            email</button>
+
+        <div class="contact-socials-card">
+          <h3 class="socials-card-title">Connect & Socials</h3>
+          <div class="social-links-grid">
+            <a class="social-link-item" href="mailto:azzamdamarp@gmail.com">
+              <div class="social-link-icon email-icon">
+                <svg viewBox="0 0 24 24" role="img" aria-label="Email">
+                  <path fill="currentColor"
+                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                </svg>
+              </div>
+              <div class="social-link-info">
+                <span class="social-platform">Gmail</span>
+                <strong class="social-handle">azzamdamarp@gmail.com</strong>
+              </div>
+              <span class="social-link-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a class="social-link-item" href="https://github.com/Azzam2311" target="_blank" rel="noopener">
+              <div class="social-link-icon github-icon">
+                <svg viewBox="0 0 24 24" role="img" aria-label="GitHub">
+                  <path fill="currentColor"
+                    d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.77-.24.77-.54v-2.1c-3.13.68-3.79-1.33-3.79-1.33-.51-1.31-1.25-1.66-1.25-1.66-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 1.72 2.62 1.22 3.26.93.1-.73.39-1.22.71-1.5-2.5-.29-5.13-1.25-5.13-5.57 0-1.23.44-2.23 1.16-3.02-.12-.29-.5-1.43.11-2.98 0 0 .94-.3 3.08 1.15a10.7 10.7 0 0 1 5.6 0c2.14-1.45 3.08-1.15 3.08-1.15.61 1.55.23 2.69.11 2.98.72.79 1.16 1.79 1.16 3.02 0 4.33-2.64 5.28-5.15 5.56.4.35.76 1.04.76 2.1v3.1c0 .3.2.65.78.54A11.2 11.2 0 0 0 12 .8Z" />
+                </svg>
+              </div>
+              <div class="social-link-info">
+                <span class="social-platform">GitHub</span>
+                <strong class="social-handle">GitHub (Azzam2311)</strong>
+              </div>
+              <span class="social-link-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a class="social-link-item" href="https://www.instagram.com/zam_dp23/" target="_blank" rel="noopener">
+              <div class="social-link-icon instagram-icon">
+                <svg viewBox="0 0 24 24" role="img" aria-label="Instagram">
+                  <path fill="currentColor"
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                </svg>
+              </div>
+              <div class="social-link-info">
+                <span class="social-platform">Instagram</span>
+                <strong class="social-handle">Instagram (@zam_dp23)</strong>
+              </div>
+              <span class="social-link-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
         </div>
       </div>
     </section>
